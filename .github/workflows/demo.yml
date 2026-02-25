@@ -1,0 +1,20 @@
+name: Demo Workflow Dispatch
+
+on:
+  workflow_dispatch:
+    inputs:
+      nombre:
+        description: 'Tu nombre'
+        required: true
+        type: string
+      apellidos:
+        description: 'Tus apellidos'
+        required: true
+        type: string
+
+jobs:
+  print-name:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print full name
+        run: echo "${{ inputs.nombre }} ${{ inputs.apellidos }}"
