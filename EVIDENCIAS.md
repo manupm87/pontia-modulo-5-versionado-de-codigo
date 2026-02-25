@@ -14,3 +14,7 @@
 - Mantiene la rama principal estable y libre de errores
 - Facilita la colaboración en equipo
 - Permite mantener un historial de cambios limpio y ordenado
+
+# Configuración de .gitignore
+*.log # Ignora todos los archivos que terminan en .log en cualquier lugar del repositorio
+__pycache__/ # Ignora el directorio __pycache__ y todo su contenido
