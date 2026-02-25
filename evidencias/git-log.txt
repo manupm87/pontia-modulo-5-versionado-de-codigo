@@ -1,0 +1,21 @@
+* 5152238 Add resta (#5)
+| *   efc4e0a Add resta after resolving conflict
+| |\  
+| |/  
+|/|   
+* | e78d4fe Add suam (#4)
+| * 3ee0e8f Add resta
+|/  
+| * 5acdc1c Add suam
+|/  
+* 239673e Add evidencias/gitignore-status.txt (#3)
+| * c14523f Add evidencias/gitignore-status.txt
+|/  
+* 2176545 Add .gitignore
+| * c429757 Add .gitignore
+|/  
+* 1db98f0 Add evidencias (#1)
+| * fbadfdb Protect main branch
+| * 1c3f76f docs: Add `EVIDENCIAS.md` outlining main branch protection rules and their benefits.
+|/  
+* a0f0ecc Initial commit with full name and date
